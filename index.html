@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <link href="styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css">
-		<title>JavaScript DOM Tutorials</title>
+        <title>JavaScript DOM Tutorials</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
+        <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:400,700" rel="stylesheet"> 
+    </head>
 <body>
     <header>
     <nav class="navbar navbar-default fixed-top">
@@ -17,8 +20,11 @@
             <div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">ABOUT</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contacts">CONTACT</a></li>
+                    <li><a href="http://mildafelt.blogspot.com/">BLOG</a></li>
+                    <li class="social-links-float"><a href="https://www.facebook.com/milda.mildiene" title="Like me on Facebook" target="_blank"><i class="fa fa-facebook facebook-link-top" aria-hidden="true"></i></a></li>
+                    <li class="social-links-float"><a href="https://www.linkedin.com/in/milda-rim%C5%A1ien%C4%97-318823145/" title="Like me on Linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -31,7 +37,7 @@
             </div>
 </header>
     <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi facilis, alias quis ea velit optio, iste reprehenderit suscipit quia voluptates ut cumque nobis culpa doloribus aperiam quas odit nisi ullam.</p>
-    <h1>PORTFOLIO</h1>
+    <h1 id="portfolio">PORTFOLIO</h1>
         
     <hr class="services text-center contact">
     <div class="container">
@@ -46,24 +52,58 @@
             </div>
         </div>
     </div>
-        <h1>Get in touch</h1>
+    <br>
+    <br>
+    <div class="container">
+        <h1 id="contacts">SKILS</h1>
+        <hr class="services text-center contact">
       
-               <div class="pirmas col-6">
+        <div class="row">
+            <article class="col-lg-4 col-md-4 col-sm-4">
+               <p class="text-center icon"><i class="fa fa-comments" aria-hidden="true"></i></p>
+               <h3 class="text-center">Clients</h3>
+               <p class="text-center skills-content clients-content">
+                   I'm listening to my clients, and realizing their visions<br> and i'm always available for them, for any question.
+               </p>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-4 text-center">
+                <p class="icon"><i class="fa fa-code" aria-hidden="true"></i></p>
+                <h3>Code</h3>
+                 <p class="skills-content">
+                     I'm working with technologies like:<br> HTML5, CSS, JavaScript, and more.
+                 </p>
+              </article>
+
+              <article class="col-lg-4 col-md-4 col-sm-4 text-center">
+                   <p class="icon"><i class="fa fa-plus" aria-hidden="true"></i></p>
+                <h3>Creative</h3>
+                <p class="skills-content">
+                    I love to make things clean, simple and Beautiful,<br> but with a lot of creativity and sophistication as well.
+                </p>
+                </article>
+    </div>
+    <br>
+    <br>        
+    <div class="container">
+        <h1 id="contacts">GET IN TOUCH</h1>
+        <hr class="services text-center contact">
+      
+               <div class="pirmas col-xs-6">
             <p>Please fill some details and I will get back to you as soon as possible.</p>
         </div>
 
-        <div class="antras col-6">
+        <div class="getintouch col-xs-6">
             <form action="/contact">
-                <div class="du">
+                <div class="intouch">
                     <label for="first name">Name:</label>
                     <input type="text" id="name-field" name="NAME">
                 </div>
 
-                <div class="du">
+                <div class="intouch">
                     <label for="">Surmane:</label>
                     <input type="text" id="surname-field" name="SURNAME">
                 </div>
-                <div class="du">
+                <div class="intouch">
                     <label for="email">Email:</label>
                     <input type="email">
                 </div>
@@ -76,4 +116,103 @@
                 <button>Send</button>
             </form>
         </div>
+    </div>
+  <br>
+<br>  
+          
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 mt-4">
+    <h1 id="portfolio">CONTACT</h1>
+        
+    <hr class="services text-center contact">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+  
+          <ul class="list-unstyled">
+            <li><p><a href="#!">PORTFOLIO</a></p></li>
+            <li><p><a href="#!">ABOUT ME</a></p></li>
+            <li><p><a href="http://mildafelt.blogspot.com/">BLOG</a></p></li>
+            <li><p><a href="#!">CONTACT</a></p></li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Contact details -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+  
+          <ul class="list-unstyled">
+            <li><p><i class="fa fa-home mr-3"></i> Vilnius, Balsiai, Pagubės g</p></li>
+            <li><p><i class="fa fa-envelope mr-3"></i> milda.rimsiene83@gmail.com</p></li>
+            <li><p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p></li>
+            <li><p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p></li>
+          </ul>
+  
+        </div>
+        
+        <!-- Grid column -->
+  
+        
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+  
+          <!-- Social buttons -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+  
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/milda.mildiene" title="Like me on Facebook" type="button" class="btn-floating btn-fb"><i class="fa fa-facebook"></i></a>
+         <!-- Twitter -->
+          <a type="button" class="btn-floating btn-tw"><i class="fa fa-twitter"></i></a>
+          <!-- Google +-->
+          <a href="https://plus.google.com/u/0/115402201327762193862" title="Follow me on Google" type="button" class="btn-floating btn-gplus"><i class="fa fa-google-plus"></i></a>
+          <!-- Dribbble -->
+          <a href="https://www.linkedin.com/in/milda-rim%C5%A1ien%C4%97-318823145/" title="Follow me on Linkedin" type="button" class="btn-floating btn-li mx-1"><i class="fa fa-linkedin"></i></a>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+                        
+                    
 </body>
